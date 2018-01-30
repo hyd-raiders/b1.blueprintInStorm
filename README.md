@@ -1,8 +1,11 @@
 # b1.blueprintInStorm
 第一关 暴风下的蓝图
 
+## ps
+蓝图更新，请立即push
+
 ## 正常模式
-2. hadoop集群简单部署文档
+2. hadoop集群简单部署文档  draw by holyond
 3. hdfs、hbase、MR简单使用手册
 4. hadoop硬编简单手册
 5. Hive简单实用
