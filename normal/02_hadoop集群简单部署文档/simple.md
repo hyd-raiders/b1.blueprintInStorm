@@ -1,6 +1,8 @@
 # hadoop集群简单部署文档
 
-hadoop 3.0.0 cluster on centos7.4
+hadoop 3.0.0 cluster on single centos7.4
+no HA
+
 
 ## 目标
     简单部署hadoop集群，不包括ha等内容，但支持多处理节点，基于该文档，我们可以了解hadoop的简单工作过程、并把开发环境搭建起来
@@ -14,14 +16,11 @@ http://hadoop.apache.org/docs/current/hadoop-project-dist/hadoop-common/ClusterS
 
 ## 环境规划
 1. 主机集群
-hadoop1 192.168.1.101   centos7.4
-hadoop2 192.168.1.102   centos7.4
-hadoop3 192.168.1.103   centos7.4
+hadoopSimple 192.168.0.100   centos7.4 
+4 cores 4 G
 
 2. hadoop cluster
-hadoop1 master 
-hadoop2 slave
-hadoop3 slave
+hadoopSimple master 
 
 ## 安装部署
 ### 基础环境
