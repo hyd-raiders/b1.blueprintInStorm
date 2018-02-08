@@ -6,7 +6,7 @@
 
 ## 正常模式
 2. hadoop集群简单部署文档  draw by holyond
-3. hdfs、hbase、MR简单使用手册
+3. hdfs、hbase、MR简单使用手册 draw by holyond 
 4. hadoop硬编简单手册
 5. Hive简单实用
 6. Spark简单实用
