@@ -16,7 +16,39 @@ source /etc/profile
 #test
 hadoop
 
-## 以下命令请自觉理解
+## 以下命令请自行理解
  hadoop checknative -a
  
+ mkdir test
+ cd test
 
+ cat >> 1.txt <<EOF
+ test
+ EOF
+
+hadoop fs -appendToFile 1.txt 1.txt
+hadoop fs -cat 1.txt
+hadoop fs -appendToFile 1.txt 1.txt
+hadoop fs -cat 1.txt
+hadoop fs -cat file:///root/test/1.txt
+
+hadoop fs -copyFromLocal 1.txt 3.txt
+hadoop fs -cat 3.txt
+
+hadoop fs -copyToLocal 2.txt 3.txt
+cat 3.txt
+
+hadoop fs -count 1.txt
+hadoop fs -count /
+
+hadoop fs -ls /
+hadoop fs -ls /usr/root
+
+hadoop fs -checksum 1.txt
+
+hadoop fs -cp 1.txt cp.txt
+hadoop fs -cat cp.txt
+
+ hadoop fs -df
+
+ hadoop fs -du -h  /user
