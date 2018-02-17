@@ -10,3 +10,19 @@ shellcommand [SHELL_OPTIONS] [COMMAND] [GENERIC_OPTIONS] [COMMAND_OPTIONS]
 
 you can read 《commonCmds.md》
 
+### hdfs概念
+HDFS Federation
+ViewFs 
+HDFS snapshot
+
+Offline Edits Viewer：
+ls /data/hdfs/namenode/current/
+ hdfs oev -i hdfs/namenode/current/edits_0000000000000000001-0000000000000000008 -o edits.xml
+ vim edits.xml
+
+ Offline Image Viewer
+ Centralized Cache Management
+
+ and so on
+
+ ### mapreduce

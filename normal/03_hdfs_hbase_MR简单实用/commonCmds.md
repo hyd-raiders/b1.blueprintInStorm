@@ -16,6 +16,12 @@ source /etc/profile
 #test
 hadoop
 
+## 设置别名
+#根据实际情况设置别名 hadoop 太长容易打错
+echo "alias hd='hadoop'" >> /etc/profile
+echo "alias hf='hadoop -fs'" >> /etc/profile
+source /etc/profile
+ 
 ## 以下命令请自行理解
  hadoop checknative -a
  
@@ -52,3 +58,33 @@ hadoop fs -cat cp.txt
  hadoop fs -df
 
  hadoop fs -du -h  /user
+
+hadoop fs -find / -name 1.txt
+
+hadoop fs -get 1.txt 8.txt
+cat 8.txt
+
+hadoop fs -getfacl ./
+
+hf -getfattr -d 1.txt
+
+hf -help rm
+
+hf -help ls
+
+hf -help moveFromLocal
+hf -help moveToLocal
+
+hf -tail 1.txt
+
+hf -text 1.txt
+
+hf -touchz 1.txt
+
+hf -help put
+
+hdfs dfs .. (just like hadoop fs)
+
+hdfs envvars
+
+ hdfs getconf -namenodes

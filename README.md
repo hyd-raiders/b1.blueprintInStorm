@@ -6,8 +6,11 @@
 
 ## 正常模式
 2. hadoop集群简单部署文档  draw by holyond
+    simple.md finished
+    HA_NFS.md todo
+    HA_QJM.md todo
 3. hdfs、hbase、MR简单使用手册 draw by holyond 
-4. hadoop硬编简单手册
+4. hadoop硬编简单手册 draw by holyond
 5. Hive简单实用
 6. Spark简单实用
 7. Impala简单实用
