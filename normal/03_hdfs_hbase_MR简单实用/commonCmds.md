@@ -88,3 +88,6 @@ hdfs dfs .. (just like hadoop fs)
 hdfs envvars
 
  hdfs getconf -namenodes
+
+
+ ## 常用命令

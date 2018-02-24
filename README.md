@@ -10,14 +10,14 @@
     HA_NFS.md todo
     HA_QJM.md todo
 3. hdfs、hbase、MR简单使用手册 draw by holyond 
-4. hadoop硬编简单手册 draw by holyond
-5. Hive简单实用
-6. Spark简单实用
-7. Impala简单实用
-8. Shark简单实用
+4. hadoop硬编简单手册
+5. Hive简单使用
+6. Spark简单使用
+7. Impala简单使用
+8. Shark简单使用
 9. 日志体系工具（flume、kafka）
 10. ELK系列
-11. Storm简单实用
+11. Storm简单使用
 12. Pig
 13. Samza
 14. yarn
