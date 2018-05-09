@@ -14,7 +14,7 @@
 5. Hive简单使用
 6. Spark简单使用
 7. Impala简单使用
-8. Shark简单使用
+8. Shark简单使用 已终止，参考 spark sql
 9. 日志体系工具（flume、kafka）
 10. ELK系列
 11. Storm简单使用
