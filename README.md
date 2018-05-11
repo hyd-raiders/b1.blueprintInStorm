@@ -18,11 +18,14 @@
 7.1 presto
 7.2 kylin
 7.3 phoenix
+7.4 Drill
 8. Shark简单使用 已终止，参考 spark sql
 9. 日志体系工具（flume、kafka）
 9.1 Gobblin (camus)
 9.2 logstash
 9.3 sqoop
+9.4 Chukwa
+9.5 Scribe
 10. ELK系列
 10.1 solr
 11. Storm简单使用
